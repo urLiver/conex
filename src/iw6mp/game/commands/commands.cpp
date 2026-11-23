@@ -349,7 +349,7 @@ namespace Game
         }
         else
         {
-            LogWrite( "dump_dvarsimple called with arguments, while it shouldnt have any, CmdArgs_ArgC: %i\n", CmdArgs_ArgC() );
+            LogWrite( "dump_dvarssimple called with arguments, while it shouldnt have any, CmdArgs_ArgC: %i\n", CmdArgs_ArgC() );
         }
     }
 
@@ -473,7 +473,7 @@ namespace Game
         Cmd_AddCommandInternal( "give", Cmd_Give, &Cmd_Give_VAR );
         Cmd_AddCommandInternal( "dump_commands", Cmd_DumpCommands, &Cmd_DumpCommands_VAR );
         Cmd_AddCommandInternal( "dump_dvars", Cmd_DumpDvars, &Cmd_DumpDvars_VAR );
-        Cmd_AddCommandInternal( "dump_dvarsimple", Cmd_DumpDvarsSimple, &Cmd_DumpDvarsSimple_VAR );
+        Cmd_AddCommandInternal( "dump_dvarssimple", Cmd_DumpDvarsSimple, &Cmd_DumpDvarsSimple_VAR );
         Cmd_AddCommandInternal( "vstr", Cmd_Vstr, &Cmd_Vstr_VAR );
         Cmd_AddCommandInternal( "iprintln", Cmd_iPrintLn, &Cmd_iPrintLn_VAR );
         Cmd_AddCommandInternal( "iprintlnbold", Cmd_iPrintLnBold, &Cmd_iPrintLnBold_VAR );
