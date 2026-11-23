@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="fs\write.cpp" />
+    <ClCompile Include="game\cmd_args\cmd_args.cpp" />
+    <ClCompile Include="game\commands\commands.cpp" />
+    <ClCompile Include="game\dvar\dvars.cpp" />
+    <ClCompile Include="game\helper_console\helper_console.cpp" />
+    <ClCompile Include="game\utils\utils.cpp" />
+    <ClCompile Include="game\main.cpp" />
+    <ClCompile Include="webman\webman.cpp" />
+    <ClCompile Include="prx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fs\write.hpp" />
+    <ClInclude Include="game\cmd_args\cmd_args.hpp" />
+    <ClInclude Include="game\commands\commands.hpp" />
+    <ClInclude Include="game\dvar\dvars.hpp" />
+    <ClInclude Include="game\helper_console\helper_console.hpp" />
+    <ClInclude Include="game\utils\utils.hpp" />
+    <ClInclude Include="game\main.hpp" />
+    <ClInclude Include="webman\webman.hpp" />
+  </ItemGroup>
+</Project>
