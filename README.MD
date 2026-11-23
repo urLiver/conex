@@ -14,7 +14,7 @@ If you are in a game you may press L3 to open and close the dvar and command vie
 
 ##### For Dumping
 - dump_commands
-- dump_dvarsimple, dumps them with a easier formatting
+- dump_dvarssimple, dumps them with a easier formatting
 - dump_dvar
 
 ##### Misc
